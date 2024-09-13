@@ -1,0 +1,68 @@
+ Basic Reset 
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, #000000, #FFD700); /* Black to Yellow Gradient */
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: #232f3e; /* Dark blue background */
+    color: #FFD700; /* Yellow text color */
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.intro img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.service {
+    background: #1c1c1c; /* Dark grey background for cards */
+    border: 1px solid #FFD700; /* Yellow border */
+    border-radius: 8px;
+    padding: 1rem;
+    flex: 1 1 calc(33.333% - 2rem);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    background: #232f3e; /* Dark blue background */
+    color: #FFD700; /* Yellow text color */
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

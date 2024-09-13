@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About AWS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>About Amazon Web Services (AWS)</h1>
+    </header>
+    
+    <main>
+        <section class="intro">
+            <h2>What is AWS?</h2>
+            <p>Amazon Web Services (AWS) is a comprehensive cloud computing platform provided by Amazon. It offers a range of services including computing power, storage options, and networking capabilities, all delivered via the cloud.</p>
+            <img src="aws-cloud.jpg" alt="AWS Cloud">
+        </section>
+        
+        <section class="services">
+            <h2>Key Services</h2>
+            <div class="service">
+                <img src="ec2.jpg" alt="EC2">
+                <h3>Amazon EC2</h3>
+                <p>Amazon Elastic Compute Cloud (EC2) provides resizable compute capacity in the cloud. It allows users to run virtual servers and scale resources according to demand.</p>
+            </div>
+            <div class="service">
+                <img src="s3.jpg" alt="S3">
+                <h3>Amazon S3</h3>
+                <p>Amazon Simple Storage Service (S3) offers scalable object storage for a range of use cases including data backup, archiving, and content distribution.</p>
+            </div>
+            <div class="service">
+                <img src="rds.jpg" alt="RDS">
+                <h3>Amazon RDS</h3>
+                <p>Amazon Relational Database Service (RDS) simplifies setting up, operating, and scaling relational databases in the cloud with ease.</p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 About AWS. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.intro img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.service {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    flex: 1 1 calc(33.333% - 2rem);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
